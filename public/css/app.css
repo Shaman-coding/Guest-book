@@ -1,0 +1,47 @@
+body {
+  font-family: "Rubik", sans-serif;
+  background: url(/images/elephant-1822636_1920.jpg?8f96f3b88930177af883000f9c3f5139);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.mainText {
+  padding-top: 100px;
+  text-align: center;
+  color: black;
+}
+
+.form {
+  display: block;
+  margin: 0 auto;
+}
+
+.Forms {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  margin-top: 70px;
+}
+
+label {
+  font-size: 20px;
+  color: black;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 500px;
+}
+
+.messages {
+  margin-top: 100px;
+  font-size: 18px;
+  color: white;
+}
+
+.panel-default {
+  background-color: transparent;
+}
+

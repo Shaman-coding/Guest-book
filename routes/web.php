@@ -14,5 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Page/home');
 });
+
+Route::get('message/{id}/edit', ['user' => 'HomeController@edit','as' => 'message.edit']);
+
+
+/* Route::get('/Sign_up', function () {
+    return view('Sign_up');
+}); */
+
+
+
+
